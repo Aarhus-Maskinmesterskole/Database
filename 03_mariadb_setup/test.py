@@ -1,3 +1,4 @@
+# Forventning: Brugeren bør få access denied på både DROP og DELETE, da kun SELECT og INSERT er givet.
 import pymysql
 
 connection = pymysql.connect(
