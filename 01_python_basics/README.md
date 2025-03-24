@@ -11,7 +11,7 @@
 6. [Kontrolstrukturer](#kontrolstrukturer)
 7. [Funktioner](#funktioner)
 8. [Øvelser](#øvelser)
-9. [Videre](#🚀Videre)
+9. [Videre](##Videre)
 
 ---
 
@@ -159,7 +159,7 @@ def kvadrat(x):
 
 ---
 
-## 🧪 Øvelser
+# 🧪 Øvelser
 
 Herunder finder du en række små øvelser, som du kan køre direkte i Python. Kopiér koden ind i en `.py`-fil, kør den – og læs kommentarerne. Reflektér over, hvad der sker.
 
@@ -276,7 +276,7 @@ print("Du fik", rigtige_svar, "rigtige.")
 
 ---
 
-## Videre 🚀
+## Videre
 - Når du har løst øvelserne, er du klar til at gå videre til **[02_sql_basics](../02_sql_basics/README.md)**.
 - Her lærer du at oprette tabeller og lave grundlæggende SQL-forespørgsler i MariaDB.
 
