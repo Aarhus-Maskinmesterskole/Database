@@ -276,7 +276,7 @@ print("Du fik", rigtige_svar, "rigtige.")
 
 ---
 
-## 🚀 Videre
+## Videre 🚀
 - Når du har løst øvelserne, er du klar til at gå videre til **[02_sql_basics](../02_sql_basics/README.md)**.
 - Her lærer du at oprette tabeller og lave grundlæggende SQL-forespørgsler i MariaDB.
 
