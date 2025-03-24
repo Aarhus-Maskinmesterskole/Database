@@ -23,3 +23,8 @@ try:
             print(f"DELETE fejlede: {e}")
 finally:
     connection.close()
+
+# Du kan oprette test_table som root, fx:
+# CREATE TABLE test_table (id INT PRIMARY KEY);
+# INSERT INTO test_table VALUES (1);
+
