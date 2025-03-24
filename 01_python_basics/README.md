@@ -11,7 +11,7 @@
 6. [Kontrolstrukturer](#kontrolstrukturer)
 7. [Funktioner](#funktioner)
 8. [Øvelser](#øvelser)
-9. [Videre](#videre)
+9. [Videre](#🚀Videre)
 
 ---
 
@@ -159,17 +159,124 @@ def kvadrat(x):
 
 ---
 
-## Øvelser
-1. **Hello World**: Opret en `hello.py` og print "Hej fra Python!".
-2. **Regnemaskine**: Skriv et script, der spørger om to tal og printer summen.
-3. **Liste-øvelse**: Lav en liste med 5 navne og loop over dem med en `for`-løkke.
-4. **Dictionary-øvelse**: Lav en dictionary med nøglerne `navn`, `alder` og print dem.
-5. **Funktion**: Skriv en funktion `gangeTo(x)`, der returnerer x*2. Kald den med flere værdier.
-6. **Tilvalg**: Lav en lille quiz, der beder brugeren om input, sammenligner med rigtige svar, og tæller point.
+## 🧪 Øvelser
+
+Herunder finder du en række små øvelser, som du kan køre direkte i Python. Kopiér koden ind i en `.py`-fil, kør den – og læs kommentarerne. Reflektér over, hvad der sker.
 
 ---
 
-## Videre
+### ✅ 1. Hello World
+
+**Opret en fil `hello.py` og skriv:**
+
+```python
+# Din første Python-program
+print("Hej fra Python!")
+```
+
+> 🌟 Kør med `python hello.py` og se resultatet.  
+> 🔍 Hvad betyder `print()`? Kan du ændre teksten?
+
+---
+
+### ➕ 2. Regnemaskine
+
+**Spørg brugeren om to tal og udskriv summen**
+
+```python
+# Regnemaskine: læg to tal sammen
+tal1 = input("Indtast første tal: ")
+tal2 = input("Indtast andet tal: ")
+
+# Omform til tal
+sum = float(tal1) + float(tal2)
+
+print("Summen er:", sum)
+```
+
+> 🔍 Hvad sker der, hvis du skriver tekst i stedet for tal?
+
+---
+
+### 📋 3. Liste-øvelse
+
+**Lav en liste med fem navne og udskriv dem med en for-løkke**
+
+```python
+# En liste med navne
+navne = ["Alice", "Bob", "Charlie", "Diana", "Emil"]
+
+for navn in navne:
+    print("Hej", navn)
+```
+
+> 🔍 Hvad sker der, hvis du fjerner én af personerne?  
+> ✍️ Prøv selv at tilføje en ny person i listen.
+
+---
+
+### 📖 4. Dictionary-øvelse
+
+**Lav en dictionary med navn og alder og udskriv værdierne**
+
+```python
+# En person som dictionary
+person = {
+    "navn": "Alice",
+    "alder": 25
+}
+
+print("Navn:", person["navn"])
+print("Alder:", person["alder"])
+```
+
+> 🔍 Hvad sker der, hvis du prøver at få fat i en nøgle der ikke findes?
+
+---
+
+### 🧠 5. Funktion
+
+**Lav en funktion `gangeTo(x)` der returnerer `x*2`**
+
+```python
+# Funktion der ganger med 2
+def gangeTo(x):
+    return x * 2
+
+print(gangeTo(3))    # 6
+print(gangeTo(10))   # 20
+print(gangeTo(-5))   # -10
+```
+
+> 🔍 Prøv at ændre funktionen, så den ganger med 3 i stedet.
+
+---
+
+### ⭐ 6. Tilvalg: Quiz
+
+**Lav en quiz der stiller et spørgsmål, og tjekker om svaret er korrekt**
+
+```python
+# Mini-quiz med ét spørgsmål
+rigtige_svar = 0
+
+svar = input("Hvad er hovedstaden i Danmark? ")
+
+if svar.lower() == "københavn":
+    print("Korrekt!")
+    rigtige_svar += 1
+else:
+    print("Forkert. Det rigtige svar er København.")
+
+print("Du fik", rigtige_svar, "rigtige.")
+```
+
+> ✍️ Udvid quizzen med flere spørgsmål.  
+> 🔍 Hvordan tæller du point?
+
+---
+
+## 🚀 Videre
 - Når du har løst øvelserne, er du klar til at gå videre til **[02_sql_basics](../02_sql_basics/README.md)**.
 - Her lærer du at oprette tabeller og lave grundlæggende SQL-forespørgsler i MariaDB.
 
