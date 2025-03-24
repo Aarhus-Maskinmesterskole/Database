@@ -1,4 +1,4 @@
-#Advarsel: Brug kun dette på testmaskiner. På produktionssystemer bør adgangskoder ændres manuelt og logges korrekt.
+# Advarsel: Brug kun dette på testmaskiner. På produktionssystemer bør adgangskoder ændres manuelt og logges korrekt.
 import pymysql
 
 connection = pymysql.connect(
