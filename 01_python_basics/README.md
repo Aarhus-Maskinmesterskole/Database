@@ -159,7 +159,7 @@ def kvadrat(x):
 
 ---
 
-# 🧪 Øvelser
+## 🧪 Øvelser
 
 Herunder finder du en række små øvelser, som du kan køre direkte i Python. Kopiér koden ind i en `.py`-fil, kør den – og læs kommentarerne. Reflektér over, hvad der sker.
 
