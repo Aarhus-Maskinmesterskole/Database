@@ -123,6 +123,7 @@ sudo service mariadb restart
 2. **Test**: Log ind med den nye bruger og forsøg at køre en `DROP TABLE` eller `DELETE`. Hvad sker der?
 3. **Bind-address**: Tjek (om muligt) din `my.cnf` for at se, hvad `bind-address` er sat til.
 4. **Skift root-adgangskode** (på en testserver), hvis du ikke allerede har gjort det.
+   OBS! Opgave 4 bør kun anvendes på testserver som den du arbejder på og ikke server som allerede er oppe at køre i produktionen.
 
 ---
 
